@@ -1,0 +1,52 @@
+html {
+  background-image: url(../images/flowers.jpg); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #C2E7FA;
+}
+
+body {
+  
+  background: white;
+  width: 60%;
+  margin: auto;
+  border: 5px solid #C2E7FA;
+  padding: 2%;
+  position: relative;
+  top:20px;
+}
+
+header {
+  background-color: pink;
+  padding:2%;
+  border: 2px solid #C2E7FA;
+  border-radius: 3px;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;   
+  margin-bottom: 0;
+}
+
+h5 {
+  margin-top: 0;
+  
+}
+
+article {
+  padding-bottom: 5%;
+  text-align: center;
+  
+}
+
+.button {
+  background-color: pink;
+  padding: 2%;
+  font-size: .7rem;
+  border: transparent;
+  border-radius: 3px;
+  
+}

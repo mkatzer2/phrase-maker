@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Phrase Maker</title>
+  <!-- <script type="text/javascript" src="jquery-1.11.1.js"></script> -->
+  <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+  <link href="css/style1.css" rel="stylesheet" type="text/css" />
+</head> 
+<body class="page" id="top"> 
+	<header>
+		<h1>Phrase Maker</h1> 
+        <h5>Inspired by Disney's Mulan</h5>
+	</header>
+	<article>
+      <h2>Create Your Own Phrase!</h2>
+      <form id="form1" action="#" method="get">
+       <p>
+         Let's get down to
+          <select name="word1">
+            <option value="business">business</option>
+            <option value="the music">the music</option>
+            <option value="cooking">cooking</option>
+            <option value="studying">studying</option>
+            <option value="the sea">the sea</option>
+          </select>
+        , to
+           <select name="word2">
+            <option value="defeat">defeat</option>
+            <option value="find">find</option>
+            <option value="forget">forget</option>
+            <option value="visit">visit</option>
+            <option value="smell">smell</option>
+           </select>
+         the
+           <select name="word3">
+            <option value="Huns">Huns</option>
+            <option value="wizards">wizards</option>
+            <option value="garbage">garbage</option>
+            <option value="past">past</option>
+            <option value="cat">cat</option>
+           </select>
+         . (huh!) 
+        </p>
+        <p>
+         Did they send me
+           <select name="word4">
+            <option value="daughters">daughters</option>
+            <option value="coffee">cofee</option>
+            <option value="a panda">a panda</option>
+            <option value="shoes">shoes</option>
+            <option value="Jenga">Jenga</option>
+           </select>
+        , when I asked for
+          <select>
+            <option value="sons">sons</option>
+            <option value="my phone">my phone</option>
+            <option value="a raise">a raise</option>
+            <option value="Dumbledore">Dumbledore</option>
+            <option value="tortilla chips">tortilla chips</option>
+          </select>
+        ?
+        </p>
+        <input type="submit" id="submit" value="Create Phrase!" class="button" />
+
+      </form>
+
+      <h4>Your Phrase:</h4>
+      <div id="phrase">
+        <p>Let's get down to business, to defeat the huns. (huh!)</p>
+        <p>Did they send me daughters, when I asked for sons?</p>
+      </div>
+	</article> 
+  <script type="text/javascript" src="javascript/test.js"></script>		
+</body>
+</html>
