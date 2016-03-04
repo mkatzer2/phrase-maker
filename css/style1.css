@@ -52,4 +52,15 @@ article {
   
 }
 
+article h5 {
+  margin-top: 5%;
+  margin-bottom:0; 
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2rem;
+}
 
+#share {
+  margin: auto;
+  width: 148px; 
+  padding: 2%;
+}
