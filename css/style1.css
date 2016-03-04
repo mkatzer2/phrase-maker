@@ -13,8 +13,9 @@ body {
   margin: auto;
   border: 5px solid #C2E7FA;
   padding: 2%;
-  position: relative;
-  top:20px;
+  
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 header {
@@ -50,3 +51,5 @@ article {
   border-radius: 3px;
   
 }
+
+
